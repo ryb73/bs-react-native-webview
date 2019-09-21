@@ -43,7 +43,8 @@
     "reason-react-native": "0.60.0"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "snapshotResolver": "<rootDir>/snapshotResolver.js"
   },
   "dependencies": {
     "react-native-webview": "^7.0.7"
