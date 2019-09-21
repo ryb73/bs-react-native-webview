@@ -1,5 +1,8 @@
 {
   "name": "@ryb73/bs-react-native-webview",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.1",
   "description": "BuckleScript bindings for https://www.npmjs.com/package/react-native-webview",
   "main": "index.js",
