@@ -36,7 +36,7 @@ test("the works", () => {
     |> toMatchSnapshot;
 });
 
-test("snapshot", () => {
+test("html", () => {
     let sourceHtml = "<b>yo</b>";
     let sourceBaseUrl = "http://whitehouse.gov";
 
