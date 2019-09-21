@@ -1,5 +1,5 @@
 {
-    "name": "bs-react-native-webview",
+    "name": "@ryb73/bs-react-native-webview",
     "bs-dependencies": [
         "@ryb73/decco",
         "reason-react",
