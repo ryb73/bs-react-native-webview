@@ -1,0 +1,23 @@
+{
+    "name": "bs-react-native-webview",
+    "bs-dependencies": [
+        "@ryb73/decco",
+        "reason-react",
+        "reason-react-native",
+    ],
+    "bs-dev-dependencies": [
+        "@glennsl/bs-jest",
+        "bs-react-test-renderer",
+      ],
+    "sources": [
+        { "dir": "src" },
+        {
+            "dir": "__tests__",
+            "type": "dev"
+        }
+    ],
+    "refmt": 3,
+    "reason": { "react-jsx": 3 },
+    "ppx-flags": [ "@ryb73/decco/ppx/ppx_decco.sh" ],
+    "bsc-flags": [ "-bs-super-errors" ]
+}
