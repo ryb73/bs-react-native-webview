@@ -49,10 +49,7 @@
     "preset": "react-native",
     "snapshotResolver": "<rootDir>/snapshotResolver.js"
   },
-  "//": {
-    "optionalDependencies": "react-native-webview can be used in the web to communicate to react-native from within webviews. Therefore, react-native-webview, and transitively react-native, should not be required."
-  },
-  "optionalDependencies": {
+  "dependencies": {
     "react-native-webview": "^7.2.5"
   }
 }

@@ -50,6 +50,3 @@ let makeProps =
             ()
         )
     };
-
-[@bs.send] [@bs.scope "ReactNativeWebView"]
-external postMessage: (Dom.window, string) => unit = "";
