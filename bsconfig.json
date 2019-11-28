@@ -1,7 +1,7 @@
 {
     "name": "@ryb73/bs-react-native-webview",
     "bs-dependencies": [
-        "@ryb73/decco",
+        "decco",
         "reason-react",
         "reason-react-native",
     ],
@@ -18,6 +18,6 @@
     ],
     "refmt": 3,
     "reason": { "react-jsx": 3 },
-    "ppx-flags": [ "@ryb73/decco/ppx/ppx_decco.sh" ],
+    "ppx-flags": [ "decco/ppx" ],
     "bsc-flags": [ "-bs-super-errors" ]
 }
