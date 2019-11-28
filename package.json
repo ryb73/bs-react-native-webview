@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.1.0-bs6.0",
+  "version": "0.1.0-bs6.1",
   "description": "BuckleScript bindings for https://www.npmjs.com/package/react-native-webview",
   "main": "index.js",
   "repository": {
