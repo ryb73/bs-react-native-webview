@@ -1,14 +1,14 @@
 {
     "name": "@ryb73/bs-react-native-webview",
     "bs-dependencies": [
-        "decco",
         "reason-react",
         "reason-react-native",
     ],
     "bs-dev-dependencies": [
         "@glennsl/bs-jest",
         "bs-react-test-renderer",
-      ],
+        "decco",
+    ],
     "sources": [
         { "dir": "src" },
         {

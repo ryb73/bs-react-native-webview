@@ -41,15 +41,15 @@
     "decco": "^1.0.0",
     "react": "16.8.6",
     "react-native": "0.60.5",
-    "react-test-renderer": "16.8.6",
-    "reason-react": "0.7.0",
-    "reason-react-native": "0.60.0"
+    "react-test-renderer": "16.8.6"
   },
   "jest": {
     "preset": "react-native",
     "snapshotResolver": "<rootDir>/snapshotResolver.js"
   },
   "dependencies": {
-    "react-native-webview": "^7.2.5"
+    "react-native-webview": "^7.2.5",
+    "reason-react": "0.7.0",
+    "reason-react-native": "0.60.0"
   }
 }
