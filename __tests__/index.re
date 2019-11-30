@@ -23,7 +23,7 @@ test("the works", () => {
     let allowsBackForwardNavigationGestures = true;
     let incognito = false;
 
-   <ReactNativeWebView
+    <ReactNativeWebView
         style sourceUri sourceMethod sourceHeaders sourceBody
         onError onLoad onLoadEnd onLoadStart onLoadProgress onMessage
         onNavigationStateChange originWhitelist domStorageEnabled javaScriptEnabled
@@ -40,7 +40,7 @@ test("html", () => {
     let sourceHtml = "<b>yo</b>";
     let sourceBaseUrl = "http://whitehouse.gov";
 
-   <ReactNativeWebView sourceHtml sourceBaseUrl />
+    <ReactNativeWebView sourceHtml sourceBaseUrl />
     |> ReactTestRenderer.create
     |> ReactTestRenderer.toJSON
     |> expect

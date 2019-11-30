@@ -3,10 +3,13 @@
 exports[`html 1`] = `
 <View
   style={
-    Object {
-      "flex": 1,
-      "overflow": "hidden",
-    }
+    Array [
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      },
+      undefined,
+    ]
   }
 >
   <RNCWebView
@@ -47,10 +50,13 @@ exports[`html 1`] = `
 exports[`the works 1`] = `
 <View
   style={
-    Object {
-      "flex": 1,
-      "overflow": "hidden",
-    }
+    Array [
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      },
+      undefined,
+    ]
   }
 >
   <RNCWebView
