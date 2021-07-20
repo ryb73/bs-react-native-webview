@@ -40,7 +40,7 @@
     "bs-react-test-renderer": "^2.0.0",
     "decco": "^1.0.0",
     "react": "16.8.6",
-    "react-native": "0.60.5",
+    "react-native": "0.62.3",
     "react-test-renderer": "16.8.6"
   },
   "jest": {
